@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    height: 100px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.301);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.name{
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    margin-left: 50px;
+    background-color: aquamarine;
+    
+}
+.name h1{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+/*navbar */
+.navbar ul{
+    display: flex;
+}
+.navbar li{
+    font-size: 28px;
+    font-weight: 200;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px;
+    
+
+}
+
+
+.navbar li a{
+    color: black;
+    text-decoration: none;
+    
+
+}
+.photo-text{
+    width: 40%;
+    height: 350px;
+    border: 1px solid black;
+    margin: 70px;
+    
+
+}
+img{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin: 10px;
+
+
+} .photo-text p{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+.contact-tools{
+    width: 20%;
+    height: 150px;
+    border: 1px solid black;
+    margin-top: 70px;
+    margin-right: 70px;
+
+
+}
+.item{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    
+}
+.contact-tools h2{
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.13);
+}
+.vital-box{
+    width: 80%;
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    background-color: #ffffff;
+    
+}
+footer{
+    background-color: aquamarine;
+}
+/* */

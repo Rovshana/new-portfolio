@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    height: 100px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.301);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.name{
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    margin-left: 50px;
+    background-color: aquamarine;
+    
+}
+.name h1{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+/*navbar */
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbar li{
+    font-size: 28px;
+    font-weight: 200;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px;
+    
+
+}
+
+
+.navbar li a{
+    color: black;
+    text-decoration: none;
+    
+
+}
+/* Main*/
+.portfolio{
+    display: flex;
+    background-color:#ffffff ;
+}
+.main-box{
+    width: 50%;
+    height: 700px;
+    border: 1px solid black;
+    margin: 50px;
+    display: flex;
+    
+    flex-wrap: wrap;
+
+}
+.title{
+    
+    height: 70px;
+    border-bottom: 1px solid black;
+    margin: 10px;
+}
+.title h2{
+    font-size: 30px;
+    font-weight: 400;
+    padding: 20px;
+    color:rgba(127, 255, 212, 0.76);
+    
+}
+
+.holder-imgs img{
+    width: 200px;
+    height: 200px;
+}
+
+/* conntact box */
+.contact-tools{
+    width: 20%;
+    height: 150px;
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 30px;
+
+
+
+}
+.item{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+.contact-tools h2{
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.13);
+}
